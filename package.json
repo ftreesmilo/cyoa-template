@@ -1,0 +1,22 @@
+{
+  "name": "cyoa-template",
+  "version": "1.0.0",
+  "description": "Get started making a cyoa game!",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "2.29.1",
+    "webpack": "5.26.3",
+    "webpack-cli": "4.5.0",
+    "yup": "0.32.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.22.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "author": "58193105+ftreesmilo@users.noreply.github.com",
+  "license": "Apache-2.0",
+  "keywords": []
+}

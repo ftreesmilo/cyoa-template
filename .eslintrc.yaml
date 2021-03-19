@@ -1,0 +1,48 @@
+---
+parser: babel-eslint
+env:
+  browser: true
+  node: true
+globals:
+  rpc: readonly
+rules:
+  arrow-spacing:
+    - error
+    - after: true
+      before: true
+  comma-dangle:
+    - error
+    - arrays: always-multiline
+      objects: always-multiline
+      imports: always-multiline
+      exports: always-multiline
+      functions: never
+  keyword-spacing:
+    - error
+    - after: true
+      before: true
+  no-dupe-args: 2
+  no-dupe-keys: 2
+  no-mixed-spaces-and-tabs: 2
+  no-shadow: 2
+  no-trailing-spaces: 2
+  no-undef: 2
+  object-curly-spacing:
+    - error
+    - always
+  array-bracket-spacing:
+    - error
+    - always
+  semi: 2
+  space-before-function-paren:
+    - error
+    - anonymous: never
+      named: never
+      asyncArrow: always
+  no-unused-vars:
+    - 2
+    - args: after-used
+      argsIgnorePattern: ^(e|err|error|event|name|oldValue|newValue|_)$|__$
+  no-use-before-define:
+    - 2
+    - nofunc
