@@ -1,7 +1,7 @@
 {
   "name": "cyoa-template",
   "version": "1.0.0",
-  "description": "Get started making a cyoa game!",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "moment": "2.29.1",
