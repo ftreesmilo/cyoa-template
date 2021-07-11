@@ -6,7 +6,7 @@ module.exports = {
   devtool: "inline-source-map",
   output: {
     filename: "script.js",
-    path: path.join(__dirname, "dist")
+    path: path.join(__dirname, "dist"),
   },
-  target: "web"
+  target: "web",
 };
