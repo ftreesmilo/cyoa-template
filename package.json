@@ -3,20 +3,22 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "engines": {
     "node": ">=16"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.18.0",
+    "@babel/register": "^7.17.7",
     "@mixer/postmessage-rpc": "^1.1.4",
     "eslint": "^8.16.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
-    "build": "webpack --config ./webpack.config.js",
-    "dev": "webpack -w --config ./webpack.config.js"
+    "build": "webpack --config ./webpack.config.babel.cjs",
+    "dev": "webpack -w --config ./webpack.config.babel.cjs"
   },
   "author": "58193105+ftreesmilo@users.noreply.github.com",
   "license": "Apache-2.0",

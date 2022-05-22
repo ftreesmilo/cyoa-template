@@ -3,6 +3,7 @@ parser: '@babel/eslint-parser'
 env:
   browser: true
   node: true
+sourceType: module
 rules:
   arrow-spacing:
     - error
