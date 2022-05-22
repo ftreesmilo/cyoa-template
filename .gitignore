@@ -1,4 +1,2 @@
 node_modules
-dist/*.mp4
-dist/*.webm
 dist/script.js

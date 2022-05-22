@@ -1,5 +1,6 @@
 name: My First CYOA!
 author: ftreesmilo
 videos:
+  - video.mp4
 scripts:
   - script.js
