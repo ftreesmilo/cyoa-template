@@ -1,2 +1,2 @@
 
-window.rpc.call('load', { video: 'demo.mp4', overlay: 'test.webm' }, false);
+window.rpc.call('load', { video: 'video.mp4' }, false);
