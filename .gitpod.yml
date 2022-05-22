@@ -3,4 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npm ci && npm run build
+  - init: npm ci && npm run dev
+vscode:
+  extensions:
+    - EditorConfig.EditorConfig
