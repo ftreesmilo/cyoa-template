@@ -14,7 +14,7 @@
     "@babel/register": "^7.17.7",
     "@mixer/postmessage-rpc": "^1.1.4",
     "eslint": "^8.16.0",
-    "webpack": "^5.72.1",
+    "webpack": "^5.76.0",
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
